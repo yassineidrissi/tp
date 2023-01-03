@@ -21,7 +21,7 @@ int main()
 	s = 0;
 	printf("entrer les elts du tableau :");
 	scanf("%d",&n);
-	printf("entrer les valeurs du tableau :\n");
+	printf("entrer les %d valeurs du tableau :\n", n);
 	for(i = 0; i < n; i++)
 		scanf("%d", &A[i]);
 	printf("les valeurs de tableau sont:\n");
